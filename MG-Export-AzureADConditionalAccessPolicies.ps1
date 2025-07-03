@@ -1,21 +1,9 @@
 <#
 	.SYNOPSIS  
 	Creation date : 16/02/2024
-	Author        : Frederic Satori - Inetum
 	
 	.DESCRIPTION  
 	Fonction : Export Entra ID Conditional Access Policies with MS Graph PowerShell (MgGraph)
-	
-	.NOTES
-	Modification history :
-	
-	+---------------+--------------------+---------+----------------------------------------------------------------------+
-	|  Date         |   Author           | Version | Description                                                          |
-	+---------------+--------------------+---------+----------------------------------------------------------------------+
-	| 16/02/2024	| Frederic Satori    |  1.0    | Create Script                                                        |
-	+---------------+--------------------+---------+----------------------------------------------------------------------+
-	| 10/06/2024	| Frederic Satori    |  1.1    | Implementing CSV export                                              |
-	+---------------+--------------------+---------+----------------------------------------------------------------------+
 	
 	.OUTPUT
 	HTML + CSV files: list of CA Policies
