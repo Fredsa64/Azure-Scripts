@@ -7,7 +7,6 @@
 	
 	.OUTPUT
 	HTML + CSV files: list of CA Policies
-
 #>
 
 # Debug option
@@ -677,3 +676,4 @@ $HTMLCode | Out-File $HTMLExportFile
 
 Write-host "Opening html export file" -ForegroundColor Cyan
 start-process $HTMLExportFile
+
